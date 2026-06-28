@@ -7,5 +7,5 @@ int main (){
     cout << "enter three number" ;
     cin >> a >> b >> c;
     cout << "Average = "<< (a + b +c) / 3.0 << endl;
-return 0;
+return 0; 
 }
