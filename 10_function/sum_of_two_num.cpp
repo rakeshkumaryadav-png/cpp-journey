@@ -16,3 +16,8 @@ int main(){
     cout << sum;
     return 0;
 }
+
+
+// enter first num 10
+// enter second number 30
+// 40
