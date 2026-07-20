@@ -15,3 +15,10 @@ for(int i = 4; i > 0; i--){
 cout << "Minimum = " << max;
     return 0;
 }
+
+
+// 32
+// 43
+// 54
+// 65
+// Maximum = 12
