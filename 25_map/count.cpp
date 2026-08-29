@@ -13,10 +13,10 @@ int main() {
     cout << "Enter roll number: ";
     cin >> roll;
 
-    auto it = mp.find(roll);
+   
 
-    if (it != mp.end()) {
-        cout << "Student = " << it->second;
+    if (mp.count(roll)) {
+        cout << "student exists";
     }
     else {
         cout << "Student not found";
@@ -24,3 +24,7 @@ int main() {
 
     return 0;
 }
+
+
+// Enter roll number: 102
+// student exists
