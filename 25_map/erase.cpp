@@ -1,0 +1,55 @@
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+    map<int, string> mp;
+
+    mp[101] = "Rakesh";
+    mp[102] = "Aman";
+    mp[103] = "Rahul";
+
+    int roll;
+
+    cout << "Enter roll number to delete: ";
+    cin >> roll;
+
+    if (mp.erase(roll)) {
+        cout << "Student removed";
+    }
+    else {
+        cout << "Student not found";
+    }
+
+    return 0;
+}
+
+
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+    map<int, string> mp;
+
+    mp[101] = "Rakesh";
+    mp[102] = "Aman";
+    mp[103] = "Rahul";
+
+    int roll;
+
+    cout << "Enter roll number to delete: ";
+    cin >> roll;
+
+    if (mp.erase(roll)) {
+        cout << "Student removed";
+    }
+    else {
+        cout << "Student not found";
+    }
+
+    return 0;
+}
+
+// Enter roll number to delete: 102
+// Student removed
