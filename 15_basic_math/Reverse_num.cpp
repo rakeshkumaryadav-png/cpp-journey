@@ -2,18 +2,17 @@
 using namespace std;
 int main(){
     int n;
-    int reverse = 0;
-
-    cout << "Enter a number";
+    cout << "Enter number";
     cin >> n;
-
-    while(n != 0){
+    
+    int reverse = 0;
+    while(n > 0){
         int digit = n % 10;
         reverse = reverse * 10 + digit;
         n = n / 10;
     }
-    cout << "Reverse =" << reverse;
+    cout << "Reverse = " << reverse;
 }
 
-// Enter a number 1234567
-// Reverse =7654321
+// Enter number 8757
+// Reverse = 7578
