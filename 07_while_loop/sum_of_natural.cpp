@@ -14,3 +14,6 @@ int main(){
     }
     cout << sum;
 }
+
+// enter number 5
+// 15
