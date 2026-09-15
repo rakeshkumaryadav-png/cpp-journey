@@ -17,4 +17,4 @@ int main(){
 
 
 // enter number 12
-// divisor1 2 3 4 6 12
+// divisor1 2 3 4 6 12\
