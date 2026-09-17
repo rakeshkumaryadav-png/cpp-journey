@@ -18,3 +18,8 @@ int main(){
     }
     cout << sum;
 }
+
+
+// enter size of array 5
+// enter array element 6 7 8 9 3   
+// 33
